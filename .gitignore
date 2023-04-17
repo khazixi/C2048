@@ -4,7 +4,6 @@
 *.lo
 *.o
 *.obj
-.cache
 
 # Precompiled Headers
 *.gch
@@ -42,8 +41,11 @@
 **/compile_commands.json
 
 include/divisible/*
+submodules/glfw
+submodules/linmath.h
 
 ## Local 
+.cache
 
 .idea/*.xml
 
