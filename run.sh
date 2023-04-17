@@ -6,8 +6,8 @@ mkdir build
 mkdir include
 mkdir submodules
 
-git clone https://github.com/glfw/glfw submodules
-git clone https://github.com/datenwolf/linmath.h submodules
+git clone https://github.com/glfw/glfw submodules/glfw
+git clone https://github.com/datenwolf/linmath.h submodules/linmath.h
 
 cmake -S . -B build
 cd build
