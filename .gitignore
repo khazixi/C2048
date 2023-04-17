@@ -43,8 +43,6 @@
 
 include/divisible/*
 
-submodules/*
-
 ## Local 
 
 .idea/*.xml
