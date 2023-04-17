@@ -8,7 +8,6 @@ mkdir submodules
 
 git clone https://github.com/glfw/glfw submodules
 git clone https://github.com/datenwolf/linmath.h submodules
-cd ..
 
 cmake -S . -B build
 cd build
